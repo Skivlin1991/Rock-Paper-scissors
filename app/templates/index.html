@@ -1,0 +1,17 @@
+{%extends "layout.html"%}
+
+{% block title%}{{super()}} | Home {%endblock%}
+
+{%block content%}
+<h1>hey lets play Rock,paper scissors</h1>
+<p>to play, in the address bar above you append '/rps/'to the URL.then After that Last'/' type your pick.</p>
+<p>for example if you want to pick 'rock':</p>
+<p>http://url/rps/rock</p>
+
+<h2>the rules of the game are as follows
+    1. rock beats scissors.
+    2.paper beats rock.
+    3.scissors beats paper.
+</h2>
+
+{%endblock %}
